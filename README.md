@@ -31,7 +31,7 @@ application.properties: This file contains various configuration settings for th
 server.port=9010
 # database information
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
-spring.datasource.url=jdbc:mysql://localhost:3306/sb
+spring.datasource.url=jdbc:mysql://localhost:3306/sb        #sb is the name of my database
 spring.datasource.username=root
 
 **#hibernate information**
